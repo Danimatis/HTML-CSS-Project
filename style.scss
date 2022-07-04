@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
+$funkyFont: "Henny Penny", cursive;
+$fancyFont: "Pattaya", sans-serif;
+$regularFont: "Roboto", sans-serif;
+$purple: #9453a6;
+$green: #8cbf3f;
+$yellow: #f2cc0f;
+$white: #f2f2f2;
+$black: #0d0d0d;
+
+.body1,
+.body2,
+.body3 {
+  background: linear-gradient(to right, #f2cc0f 0%, #a49a04 50%, #bec58d 100%);
+}
+
+.body4,
+.body5 {
+  background: radial-gradient(
+    ellipse at center,
+    #f2cc0f 0%,
+    #a49a04 50%,
+    #bec58d 100%
+  );
+}
+.img {
+  z-index: 9999;
+  opacity: 75%;
+}
+nav {
+  background-color: $purple !important;
+  font-family: $fancyFont;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #slideshow {
+    width: 85% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel-item,
+  #slideshow {
+    height: 60vh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  a .box {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .img {
+    height: 100px;
+    width: 100px;
+  }
+}
+main .carousel {
+  height: 85vh !important;
+}
+
+main .pic1 {
+  height: 100%;
+}
+
+main .pic2 {
+  height: 100%;
+}
+.modal-content,
+.card {
+  background: linear-gradient(45deg, #8cbf3f 0%, #9bbb6a 50%, #73b90b 100%);
+}
+.btn-c .accordion-item {
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+form button,
+.sponsor-link {
+  font-family: $fancyFont !important;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  display: inline !important;
+  background-color: $yellow !important;
+}
+
+input,
+textarea {
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  font-family: $funkyFont;
+  color: $white;
+  font-size: 25px;
+}
+
+main {
+  font-family: $regularFont;
+  font-size: 17px;
+  text-indent: 2em;
+  font-weight: bolder;
+}
+
+main h1,
+main h2 {
+  font-family: $funkyFont;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+}
+
+main h3 {
+  font-family: $fancyFont;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  transition-duration: 1s;
+}
+
+.box:hover {
+  transform: scale(1.2);
+}
+footer {
+  background-color: $green;
+  font-family: $regularFont;
+  font-weight: bolder;
+}
+
+.card img {
+  height: 250px;
+  width: 250px;
+}
+
+div .sponsor {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.card-title {
+  font-family: $fancyFont;
+}
+
+.card-text {
+  font-family: $regularFont;
+}
+
+.bi-facebook {
+  color: $yellow;
+}
+
+.bi-telegram {
+  color: $white;
+}
+
+.bi-twitter {
+  color: $purple;
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

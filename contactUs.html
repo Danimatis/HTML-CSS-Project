@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cholon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</head>
+
+<body class="d-flex flex-column min-vh-100 body5">
+
+    <nav class="navbar navbar-expand-md pt-0 mb-5 ">
+        <div class="container-fluid">
+            <a class="navbar-brand pt-0 " href="./index.html"><img src="./pictures/logo.png" alt="logo"
+                    class="img position-fixed top-0 start-0"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 align-items-end">
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="./aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="./media.html">Media</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link active" href="contactUs.html" aria-current="page">Contact Us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <main class="flex-fill container-lg">
+        <h1 class="text-center mb-5">Questions or Comments?</h1>
+
+        <div class="">
+            <form class="d-flex flex-column align-items-center" action="https://formspree.io/f/xoqrzoee" method="post">
+                <div class="mb-3">
+                    <label for="firstName" class="form-label d-none d-sm-block">First Name</label>
+                    <input type="text" required name="first name" class="form-control d-none d-sm-block" id="firstName">
+                    <input type="text" required name="first name" class="form-control d-xs-block d-sm-none"
+                        id="firstName" placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label d-none d-sm-block">Last Name</label>
+                    <input type="text" required name="last name" class="form-control d-none d-sm-block" id="lastName">
+                    <input type="text" required name="last name" class="form-control d-xs-block d-sm-none" id="lastName"
+                        placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label d-none d-sm-block">Email</label>
+                    <input type="email" name="email" required class="form-control d-none d-sm-block" id="email">
+                    <input type="email" name="email" required class="form-control d-xs-block d-sm-none" id="email"
+                        placeholder="Email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="comment" class="form-label d-none d-sm-block">Comments</label>
+                    <textarea class="form-control d-none d-sm-block" id="comment" rows="3"></textarea>
+                    <textarea class="form-control d-xs-block d-sm-none" id="comment" rows="3"
+                        placeholder="Comments"></textarea>
+                </div>
+                <button type="submit" class="btn mb-3">Submit</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="text-end">
+        <div class="d-flex justify-content-around flex-column mt-2">
+            <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/holon.muni/" class="fa fa-facebook" target="_blank"></a>
+                <a href="http://www.youtube.com/user/HolonMunicipality" class="fa fa-youtube" target="_blank"></a>
+                <a href="https://instagram.com/holon.muni?igshid=zb0iddlodcfs" class="fa fa-instagram"
+                    target="_blank"></a>
+            </div>
+        </div>
+        <div class="text-center">עיריית חולון, ויצמן 58, 58737309, טל': 03-5027222, פקס: 03-6511851​</div>
+        <div class="mx-2">&copy; Dani Matis</div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
