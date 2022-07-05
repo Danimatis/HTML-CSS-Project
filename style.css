@@ -10,7 +10,7 @@
   background: radial-gradient(ellipse at center, #f2cc0f 0%, #a49a04 50%, #bec58d 100%);
 }
 
-.img {
+.logo {
   z-index: 9999;
   opacity: 75%;
 }
@@ -26,26 +26,34 @@ nav {
     width: 85% !important;
   }
 }
-@media only screen and (max-width: 800px) {
-  .carousel-item,
+@media only screen and (max-width: 900px) {
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  iframe {
+    height: 200px !important;
+  }
+
+  .carousel,
 #slideshow {
-    height: 85vh !important;
+    height: 45vh !important;
   }
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   a .box {
     height: 100px;
     width: 100px;
   }
 }
-@media screen and (max-width: 900px) {
-  .img {
-    height: 100px;
-    width: 100px;
+@media only screen and (max-width: 450px) {
+  iframe {
+    height: 150px !important;
   }
 }
 main .carousel {
-  height: 85vh !important;
+  height: 85vh;
 }
 
 main .pic1 {
@@ -111,6 +119,11 @@ main h3 {
 
 .box:hover {
   transform: scale(1.2);
+}
+
+iframe {
+  height: 350px;
+  width: 45vw;
 }
 
 footer {
