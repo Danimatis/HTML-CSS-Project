@@ -56,6 +56,10 @@ main .carousel {
   height: 85vh;
 }
 
+.carousel-caption {
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #000000, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #000000, 4px 3px 1px #cccccc, 3px 4px 1px #000000, 5px 4px 1px #cccccc, 4px 5px 1px #000000, 6px 5px 1px #cccccc, 5px 6px 1px #000000, 7px 6px 1px #000000;
+}
+
 main .pic1 {
   height: 100%;
 }
