@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Permanent+Marker&family=Roboto:wght@100&display=swap");
 .body1,
 .body2,
 .body3 {
@@ -57,7 +57,7 @@ main .carousel {
 }
 
 .carousel-caption {
-  text-shadow: 3px 5px 2px #474747;
+  font-family: "Permanent Marker", cursive !important;
 }
 
 main .pic1 {
@@ -90,11 +90,17 @@ textarea {
   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-.carousel-caption h5,
 .carousel-caption p {
-  font-family: "Henny Penny", cursive;
+  font-family: "Permanent Marker", cursive;
   color: #f2f2f2;
-  font-size: 25px;
+  font-size: 20px;
+  text-shadow: 3px 5px 2px #474747 !important;
+}
+
+.carousel-caption h2 {
+  font-family: "Permanent Marker", cursive;
+  color: #f2f2f2;
+  text-shadow: 3px 5px 2px #474747 !important;
 }
 
 main {
